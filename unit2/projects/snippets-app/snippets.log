@@ -1,25 +1,8 @@
-ERROR:root:FIXME: Unimplemented - put('list', 'A sequence of things - created using []')
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+ERROR:root:FIXME: Unimplemented - put('list', 'A list')
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
 ERROR:root:FIXME: Unimplemented - get('list')
-INFO:root:Constructing Parser
-INFO:root:Constructing Parser
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing Parser
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing Parser
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing Parser
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing Parser
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing Parser
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing Parser
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing Parser
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing Parser
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing Parser
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing Parser
-DEBUG:root:Constructing put subparser
