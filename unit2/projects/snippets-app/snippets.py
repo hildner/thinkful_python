@@ -14,20 +14,17 @@ def put(name, snippet):
     """
     Store a snippet with an associated name.
     """
-    logging.info("Storing snippet {!r}: {!r}".format(name, snippet))
-    cursor = connection.cursor()
-    try:
-        command = "insert into snippets values (%s, %s)"
-        cursor.execute(command, (name, snippet))
-    except psycopg2.IntegrityError as e:
-        connection.rollback()
-        command = "update snippets set message=%s where keywsord =%s"
-        cursor.execute(command, (snippet, name))
-    connection.commit()
-    logging.debug("Snippet stored successfully.")
-    return name, snippet
     
+    logging.info("Storing snippet {!r}: {!r}".format(name, snippet))
+    try:
+        with connection, connection.cursor() as cursor:
+            cursor.execute("insert into snippets values (%s, %s)",(name, snippet))
+    except psycopg2.IntegrityError as e:
+        with connection, connection.cursor() as cursor:
+            cursor.execute("update snippets set message=%s where keyword =%s",(snippet, name))
+    return name, snippet
 
+    
 def get(name):
     """Retrieve the snippet with a given name.
 
