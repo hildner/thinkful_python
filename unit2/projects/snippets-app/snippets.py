@@ -42,11 +42,19 @@ def get(name):
         return "404: Snippet Not Found"
     return row[0]
 
+def catalog():
+    print("List of keywords:")
+    logging.info("Retrieving list of keywords")
+    with connection, connection.cursor() as cursor:
+        cursor.execute("select keyword from snippets order by keyword")
+        keywords = cursor.fetchall()
+    return keywords
+    
+
 def main():
     """Main Function"""
     logging.info("Constructing Parser")
     parser = argparse.ArgumentParser(description="Store and revive snippets of text")
-    
     subparsers = parser.add_subparsers(dest="command", help="Available Commands")
     
     # Subparser for the put command
@@ -60,6 +68,10 @@ def main():
     get_parser = subparsers.add_parser("get", help="Revive a snippet")
     get_parser.add_argument("name", help="Name of the snippet")
     
+     # Subparser for the catalog command
+    logging.debug("Constructing catalog subparser")
+    get_parser = subparsers.add_parser("catalog", help="Reveal list of keywords")
+    
     arguments = parser.parse_args()
     
     #Convert parsed arguments from Namespace to dictionary
@@ -72,6 +84,10 @@ def main():
     elif command == "get":
         snippet = get(**arguments)
         print("Retrieved snippet: {!r}".format(snippet))
+    elif command == "catalog":
+        keywords = catalog(**arguments)
+        for keyword in keywords:
+            print(keyword)
         
 
 if __name__ == "__main__":
