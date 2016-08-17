@@ -922,3 +922,476 @@ DEBUG:root:Constructing put subparser
 DEBUG:root:Constructing get subparser
 DEBUG:root:Constructing catalog subparser
 INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving snippet 'book'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving snippet 'chris'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructing Parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieving list of keywords

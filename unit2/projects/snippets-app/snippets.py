@@ -49,6 +49,14 @@ def catalog():
         cursor.execute("select keyword from snippets order by keyword")
         keywords = cursor.fetchall()
     return keywords
+
+def search(term):
+    print("The following snippets contain the word '{}'".format(term))
+    logging.info("Retrieving list of keywords")
+    with connection, connection.cursor() as cursor:
+        cursor.execute("select * from snippets where message like '%{}%'".format(term))
+        matches = cursor.fetchall()
+    return matches
     
 
 def main():
@@ -70,7 +78,12 @@ def main():
     
      # Subparser for the catalog command
     logging.debug("Constructing catalog subparser")
-    get_parser = subparsers.add_parser("catalog", help="Reveal list of keywords")
+    catalog_parser = subparsers.add_parser("catalog", help="Reveal list of keywords")
+    
+     # Subparser for the search command
+    logging.debug("Constructing search subparser")
+    search_parser = subparsers.add_parser("search", help="Find snippets containing search term")
+    search_parser.add_argument("term", help="Word you are searching for in existing snippets")
     
     arguments = parser.parse_args()
     
@@ -88,7 +101,11 @@ def main():
         keywords = catalog(**arguments)
         for keyword in keywords:
             print(keyword)
-        
+    elif command == "search":
+        matches = search(**arguments)
+        for match in matches:
+            print(match)
+
 
 if __name__ == "__main__":
     main()
