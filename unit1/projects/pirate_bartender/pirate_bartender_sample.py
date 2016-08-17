@@ -21,6 +21,7 @@ def find_preferences():
     for type, question in questions.items():
         print(type)
         print(question)
+        print("Inside for loop")
         preferences[type] = input().lower() in ["y", "yes"]
         print("")
     print (preferences)

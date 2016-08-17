@@ -68,6 +68,3 @@ if __name__ == "__main__":
     band.play_music()
     band.hire_member(Paul)
     band.play_music()
-    
-
-
