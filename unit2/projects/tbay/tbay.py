@@ -2,14 +2,15 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
+from sqlalchemy import Column, Integer, String, DateTime, ForeignKey
+from sqlalchemy.orm import relationship
+
+from datetime import datetime
+
 engine = create_engine('postgresql://ubuntu:thinkful@localhost:5432/tbay')
 Session = sessionmaker(bind=engine)
 session = Session()
 Base = declarative_base()
-
-from datetime import datetime
-
-from sqlalchemy import Column, Integer, String, DateTime
 
 class Item(Base):
     __tablename__ = "items"
@@ -25,13 +26,12 @@ class User(Base):
     id = Column(Integer, primary_key=True)
     username = Column(String, nullable=False)
     password = Column(String, nullable=False)
-    
+
 
 class Bid(Base):
     __tablename__ = "bid"
     id = Column(Integer, primary_key=True)
     price = Column(Integer, nullable=False)
-
 
 
 Base.metadata.create_all(engine)

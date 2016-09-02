@@ -26,10 +26,7 @@ sonia = User(username = "soniar", password = "abcd")
 baseball = Item(name = "Mickey Mantle Signed Baseball", description = "Baseball autographed by Mickey Mantle")
 guitar = Item(name = "Les Paul Guitar", description = "Les Paul Guitar played by Eric Clapton")
 
-session.add(chris)
-session.add(sonia)
-session.add(baseball)
-session.add(guitar)
+session.add_all([chris, baseball, sonia, guitar])
 session.commit() #need a session.add for each object
 
 x = session.query(User.username).order_by(User.username).all()
