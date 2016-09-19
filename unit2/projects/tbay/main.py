@@ -9,27 +9,42 @@ session.add(beyonce) #take the object and add it into session
 #session.commit()
 '''
 
-#Clear databases
+#CLEAR DATABASES
 users = session.query(User).all() 
 items = session.query(Item).all()
+bids = session.query(Bid).all()
 for user in users:
     session.delete(user)
 for item in items:
     session.delete(item)
+for bid in bids:
+    session.delete(bid)
     
 session.commit()
 
+#CREATE 3 USERS
+chris = User(username = "Christopher", password = "1234")
+sonia = User(username = "Sonia", password = "abcd")
+alex = User(username = "Alex", password = "4567")
 
-#Write to database
-chris = User(username = "childner", password = "1234")
-sonia = User(username = "soniar", password = "abcd")
-baseball = Item(name = "Mickey Mantle Signed Baseball", description = "Baseball autographed by Mickey Mantle")
-guitar = Item(name = "Les Paul Guitar", description = "Les Paul Guitar played by Eric Clapton")
+#CREATE 1 ITEM FOR BID
+baseball = Item(name = "Mickey Mantle Signed Baseball", description = "Baseball autographed by Mickey Mantle", user=sonia)
+#guitar = Item(name = "Les Paul Guitar", description = "Les Paul Guitar played by Eric Clapton", user=sonia)
+#wine = Item(name = "Chateau Margaux 2009", description = "Rarest Wine in the World", user=chris)
 
-session.add_all([chris, baseball, sonia, guitar])
-session.commit() #need a session.add for each object
+#USERS BID ON ITEMS
+chris_bid1 = Bid(price = 200, user=chris, item=baseball)
+alex_bid1= Bid(price = 225, user=alex, item=baseball)
+chris_bid2 = Bid(price = 230, user=chris, item=baseball)
+alex_bid2 = Bid(price = 240, user=alex, item=baseball)
 
-x = session.query(User.username).order_by(User.username).all()
-y = session.query(Item.name).order_by(Item.name).all()
+#need a session.add for each object
+session.add_all([chris, sonia, alex, baseball, chris_bid1, alex_bid1, chris_bid2, alex_bid2])
+session.commit() 
 
-print(x,"\n",y)
+#Perform a query to find out which user placed the highest bid
+bid_list = session.query(Bid.item_id, Bid.price, Bid.user_id).order_by(Bid.price.desc()).all()
+user_name = session.query(User).get(bid_list[0][2])
+item_name = session.query(Item).get(bid_list[0][0])
+
+print("{0}'s bid of ${1} is currently the highest for the {2}".format(user_name.username,bid_list[0][1],item_name.name))
